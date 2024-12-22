@@ -8,8 +8,11 @@ return {
         solargraph = {
           autostart = false,
         },
-        -- ruby_lsp will be automatically installed with mason and loaded with lspconfig
-        ruby_lsp = {},
+        -- https://github.com/Shopify/ruby-lsp/blob/main/EDITORS.md#lazyvim-lsp
+        ruby_lsp = {
+          mason = false,
+          cmd = { "/Users/victor/.rbenv/shims/ruby-lsp" },
+        },
       },
     },
   },

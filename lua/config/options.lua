@@ -3,4 +3,5 @@
 -- Add any additional options here
 vim.cmd("autocmd FileType ruby setlocal indentkeys-=.")
 vim.g.VimuxOrientation = "h"
-vim.g.VimuxHeight = "40"
+vim.g.VimuxHeight = "40%"
+vim.o.background = "light"
